@@ -1,0 +1,132 @@
+.authentication-controller {
+  width: 70%;
+  display: flex;
+  margin: 80px auto;
+  height: 100%;
+  overflow: hidden;
+  .form-left-side {
+    width: 40%;
+    background-color: rgb(227, 85, 161);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 15px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content-body-form {
+      color: white;
+      width: 100%;
+      .title-form {
+        margin-bottom: 20px;
+        span {
+          font-size: 30px;
+          font-family: "Barlow", sans-serif;
+        }
+      }
+      .title-description {
+        margin-bottom: 30px;
+        p {
+          font-family: "Inter", sans-serif;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        .btn-sign-in {
+          margin: auto;
+          display: inline-block;
+          padding: 8px 60px;
+          border: 1px solid #eee;
+          border-radius: 25px;
+          span {
+            text-transform: uppercase;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+  .form-login {
+    padding: 80px 80px !important;
+  }
+
+  .form-right-side {
+    padding: 35px 70px;
+    width: 60%;
+    border: 1px solid #eee;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    .content-body-form {
+      text-align: center;
+      .title-form {
+        margin-bottom: 3px;
+        span {
+          color: rgb(227, 85, 161);
+          font-size: 30px;
+          font-family: "Barlow", sans-serif;
+        }
+      }
+      .title-description {
+        p {
+          color: rgb(181, 181, 181);
+          font-size: 15px;
+          font-family: "Roboto", sans-serif;
+        }
+      }
+      .content-form-submit {
+        width: 100%;
+        text-align: left;
+        margin-top: 30px;
+        form {
+          label {
+            font-size: 12px;
+            text-transform: uppercase;
+            font-family: "Poppins", sans-serif;
+            margin-bottom: 7px;
+          }
+          input {
+            width: 100%;
+            margin-bottom: 13px;
+            padding: 10px 23px;
+            font-size: 14px;
+            border-radius: 25px;
+            border: 1px solid #ddd;
+            &:focus {
+              outline: none;
+            }
+          }
+          button {
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            margin-top: 30px;
+            border: 1px solid rgb(227, 85, 161);
+            background-color: rgb(227, 85, 161);
+            padding: 9px 50px;
+            color: white;
+            border-radius: 25px;
+            text-transform: uppercase;
+            font-size: 13px;
+            margin-bottom: 30px;
+          }
+        }
+      }
+      .box-error-message {
+        width: 100%;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 25px;
+        background-color: rgb(235, 80, 80);
+        padding: 15px 25px;
+        border-radius: 5px;
+        span {
+          color: white;
+          font-size: 14px;
+          font-family: "Roboto", sans-serif;
+          letter-spacing: 0.5px;
+        }
+      }
+    }
+  }
+}

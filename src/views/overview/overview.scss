@@ -1,0 +1,123 @@
+.body-container {
+  display: flex;
+  .error-message {
+    color: red;
+  }
+  .btn-both-modal {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .add-button-modal {
+      margin-right: 25px;
+      display: flex;
+      align-items: center;
+      background-color: rgb(224, 68, 152);
+      color: white;
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      svg {
+        font-size: 16px;
+        margin-right: 6px;
+      }
+      span {
+        font-size: 15px;
+      }
+      &:last-child {
+        margin-right: 0;
+        background-color: black;
+        svg {
+          font-size: 14px;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+  .table-row {
+    margin-top: 15px;
+    tr {
+      th {
+        padding: 15px;
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        font-weight: bolder;
+      }
+      td {
+        padding: 15px;
+      }
+    }
+    .action-status {
+      display: flex;
+      justify-content: space-between;
+      width: 50px;
+      margin: auto;
+      .update-icon svg {
+        font-size: 15px;
+        cursor: pointer;
+        color: purple;
+      }
+      .delete-icon svg {
+        cursor: pointer;
+        font-size: 20px;
+        color: red;
+      }
+    }
+    .box-search {
+      width: 100%;
+      display: flex;
+      justify-content: right;
+      margin-bottom: 25px;
+      align-items: center;
+      overflow: hidden;
+      input {
+        border: 1px solid #eee;
+        padding: 6px 13px;
+        font-size: 14px;
+        &:focus {
+          outline: none;
+        }
+      }
+      button {
+        background-color: black;
+        color: white;
+        font-size: 12px;
+        padding: 8px 10px;
+        border: none;
+        overflow: hidden;
+      }
+    }
+    .box-pagination {
+      display: inline-flex;
+      justify-content: space-between;
+      margin-top: 6px;
+      .prev-btn,
+      .number,
+      .next-btn {
+        padding: 6px 10px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        background-color: black;
+        border-radius: 3px;
+        cursor: pointer;
+        span {
+          color: white;
+          font-size: 13px;
+          svg {
+            font-size: 13px;
+          }
+        }
+      }
+      .active {
+        background-color: rgb(122, 122, 122);
+      }
+    }
+  }
+}
+.data-not-found {
+  margin-top: 15px;
+  span {
+    font-size: 18px;
+  }
+}

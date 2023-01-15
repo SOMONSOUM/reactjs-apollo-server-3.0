@@ -1,0 +1,63 @@
+.navbar-container {
+  width: 100%;
+  background-color: rgba(244, 244, 244, 0.739);
+  .flex-row {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    .flex-left-side {
+      display: flex;
+      align-items: center;
+      a {
+        text-decoration: none;
+        img {
+          height: 40px;
+          object-fit: cover;
+          object-position: center;
+          margin-right: 10px;
+        }
+        span {
+          font-weight: 600;
+          font-size: 16px;
+          text-transform: uppercase;
+          color: rgb(224, 68, 152);
+          font-family: "Roboto", sans-serif;
+        }
+      }
+    }
+    .flex-right-side {
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      .personal-name {
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        text-transform: capitalize;
+      }
+      .btn-log-out {
+        padding: 9px 20px;
+        background-color: black;
+        margin-left: 40px;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        border: 1px solid black;
+        span {
+          color: white;
+          font-size: 12px;
+          text-transform: uppercase;
+          font-family: "Inter", sans-serif;
+        }
+        &:hover {
+          background: transparent;
+          transition: 0.2s ease-in-out;
+          span {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

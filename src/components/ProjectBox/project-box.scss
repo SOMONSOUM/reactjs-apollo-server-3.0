@@ -1,0 +1,42 @@
+.box-project-client {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 18px;
+  padding-bottom: 35px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  margin-bottom: 25px;
+  .left-box-side {
+    .title-project {
+      margin-bottom: 7px;
+      span {
+        font-size: 19px;
+        font-family: "Inter", sans-serif;
+        font-weight: bolder;
+      }
+    }
+    .status-project {
+      span {
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+      }
+    }
+  }
+  .right-box-side {
+    a {
+      text-decoration: none;
+      color: black;
+      .btn-view-detail {
+        padding: 8px 12px;
+        display: flex;
+        justify-content: center;
+        background-color: #eee;
+        border-radius: 5px;
+        cursor: pointer;
+        span {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

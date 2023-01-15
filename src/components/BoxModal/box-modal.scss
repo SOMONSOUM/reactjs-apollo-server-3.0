@@ -1,0 +1,26 @@
+.box-form-modal {
+  form {
+    label {
+      font-size: 15px;
+      margin-bottom: 7px;
+    }
+    input {
+      width: 100%;
+      margin-bottom: 18px;
+      padding: 8px 13px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 14px;
+      &:focus {
+        outline: none;
+      }
+    }
+    textarea {
+      @extend input;
+      height: 80px;
+    }
+    select {
+      @extend input;
+    }
+  }
+}
