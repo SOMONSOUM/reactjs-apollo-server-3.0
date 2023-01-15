@@ -11,7 +11,7 @@ WORKDIR /usr/src/app
 
 # Installing dependencies
 COPY package*.json ./
-RUN yarn install
+RUN yarn install --force
 
 # Copying source files
 COPY . .
@@ -22,4 +22,4 @@ RUN yarn build
 EXPOSE ${PORT}
 
 # Running the app
-CMD [ "npx", "serve" "build" ]
+CMD [ "yarn", "serve" ]
