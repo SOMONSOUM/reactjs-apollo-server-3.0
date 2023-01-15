@@ -20,4 +20,4 @@ RUN yarn build
 EXPOSE 5000
 
 # Running the app
-CMD [ "npx", "serve", "build" ]
+CMD [ "yarn", "serve" ]
