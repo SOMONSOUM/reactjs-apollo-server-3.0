@@ -6,7 +6,7 @@
   overflow: hidden;
   .form-left-side {
     width: 40%;
-    background-color: rgb(227, 85, 161);
+    background-color: #00417F;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     padding: 15px 30px;
@@ -62,14 +62,14 @@
       .title-form {
         margin-bottom: 3px;
         span {
-          color: rgb(227, 85, 161);
+          color: #00417F;
           font-size: 30px;
           font-family: "Barlow", sans-serif;
         }
       }
       .title-description {
         p {
-          color: rgb(181, 181, 181);
+          color: #b5b5b5;
           font-size: 15px;
           font-family: "Roboto", sans-serif;
         }
@@ -101,10 +101,10 @@
             justify-content: center;
             margin: auto;
             margin-top: 30px;
-            border: 1px solid rgb(227, 85, 161);
-            background-color: rgb(227, 85, 161);
+            border: 1px solid #00417F;
+            background-color: #00417F;
             padding: 9px 50px;
-            color: white;
+            color: #FFFFFF;
             border-radius: 25px;
             text-transform: uppercase;
             font-size: 13px;
@@ -117,11 +117,11 @@
         text-align: left;
         margin-top: 40px;
         margin-bottom: 25px;
-        background-color: rgb(235, 80, 80);
+        background-color: #CE181E;
         padding: 15px 25px;
         border-radius: 5px;
         span {
-          color: white;
+          color: #FFFFFF;
           font-size: 14px;
           font-family: "Roboto", sans-serif;
           letter-spacing: 0.5px;
