@@ -1,6 +1,6 @@
 .navbar-container {
   width: 100%;
-  background-color: rgba(244, 244, 244, 0.739);
+  background-color: #f4f4f4bc;
   .flex-row {
     padding: 10px;
     display: flex;
@@ -20,7 +20,7 @@
           font-weight: 600;
           font-size: 16px;
           text-transform: uppercase;
-          color: rgb(224, 68, 152);
+          color: #00417F;
           font-family: "Roboto", sans-serif;
         }
       }
@@ -45,7 +45,7 @@
         transition: 0.2s ease-in-out;
         border: 1px solid black;
         span {
-          color: white;
+          color: #FFFFFF;
           font-size: 12px;
           text-transform: uppercase;
           font-family: "Inter", sans-serif;
@@ -54,7 +54,7 @@
           background: transparent;
           transition: 0.2s ease-in-out;
           span {
-            color: black;
+            color: #00023D;
           }
         }
       }

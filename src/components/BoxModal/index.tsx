@@ -154,7 +154,7 @@ export default function BoxModal({
                   </div>
                 </ModalBody>
                 <ModalFooter>
-                  <Button outline color="info">
+                  <Button outline color="primary">
                     {loading || isLoading ? "Submitin..." : "Submit"}
                   </Button>
                   <Button outline color="danger" onClick={onToggle}>
@@ -239,7 +239,7 @@ export default function BoxModal({
                   </div>
                 </ModalBody>
                 <ModalFooter>
-                  <Button disabled={error ? true : false} outline color="info">
+                  <Button disabled={error ? true : false} outline color="primary">
                     {isContentLoading ? "Loading..." : "Submit"}
                   </Button>
                   <Button

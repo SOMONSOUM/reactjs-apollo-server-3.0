@@ -1,7 +1,7 @@
 .body-container {
   display: flex;
   .error-message {
-    color: red;
+    color: #CE181E;
   }
   .btn-both-modal {
     display: flex;
@@ -11,8 +11,8 @@
       margin-right: 25px;
       display: flex;
       align-items: center;
-      background-color: rgb(224, 68, 152);
-      color: white;
+      background-color: #00417F;
+      color: #FFFFFF;
       padding: 8px 15px;
       border-radius: 5px;
       cursor: pointer;
@@ -25,7 +25,7 @@
       }
       &:last-child {
         margin-right: 0;
-        background-color: black;
+        background-color: #00023D;
         svg {
           font-size: 14px;
           margin-right: 8px;
@@ -60,7 +60,7 @@
       .delete-icon svg {
         cursor: pointer;
         font-size: 20px;
-        color: red;
+        color: #CE181E;
       }
     }
     .box-search {
@@ -79,7 +79,7 @@
         }
       }
       button {
-        background-color: black;
+        background-color: #00023D;
         color: white;
         font-size: 12px;
         padding: 8px 10px;
@@ -98,7 +98,7 @@
         margin-right: 10px;
         display: flex;
         align-items: center;
-        background-color: black;
+        background-color: #00023D;
         border-radius: 3px;
         cursor: pointer;
         span {
@@ -110,7 +110,7 @@
         }
       }
       .active {
-        background-color: rgb(122, 122, 122);
+        background-color: #7a7a7a;
       }
     }
   }
